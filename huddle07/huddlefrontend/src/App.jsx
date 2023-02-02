@@ -85,7 +85,7 @@ function App() {
   
  
  // end 
-  const [walletAddress, setWalletAddress] = useState("0xbeE1C826dB64E9ED6d5607d58C322b44029475eC");
+  const [walletAddress, setWalletAddress] = useState("");
 
   const iframeConfig = {
     roomUrl: "https://iframe.huddle01.com/test-room",
